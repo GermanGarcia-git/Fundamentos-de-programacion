@@ -1,0 +1,69 @@
+package Tema3;
+
+import java.util.Scanner;
+
+/*
+ * Instituto Tecnologico De Pachuca
+ * Fundamentos de programacion
+ * GARCIA REYES GERMAN 26201073
+ * 21/10/2026
+ * Programa de cafeteria
+ * */
+public class ClientesCafeteria {
+    static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+          int totalClientes=0;
+
+          while(totalClientes <=0){
+              System.out.println("Ingrese la cantidad de clientes que participaran en la encuesta");
+              totalClientes = scanner.nextInt();
+              if (totalClientes <=0){
+                  System.out.println("Error la cantidad debe ser mayor a cero");
+              }
+          }
+          double sumaCalificaciones =0;
+          int clientesSatisfechos =0;
+          int clientesInsatisfechos =0;
+          double calificacionMasAlta =0;
+
+        for (int i = 1; i <= totalClientes; i++) {
+            System.out.println("Cliente " + i + "Ingrese una calificacion del 1 al 10");
+            double calificacion = scanner.nextDouble();
+
+            while (calificacion < 1.0 || calificacion>10.0){
+                System.out.println("Calificacion no valida");
+                calificacion = scanner.nextDouble();
+            }
+            sumaCalificaciones += calificacion;
+
+            if (calificacion>=7.0){
+                clientesSatisfechos++;
+            }else {
+                clientesInsatisfechos++;
+            }
+            if (calificacion>calificacionMasAlta){
+                calificacionMasAlta=calificacion;
+            }
+        }
+        double promedioGeneral = sumaCalificaciones/totalClientes
+
+        String evaluacionServicio ="";
+        if (promedioGeneral>==8){
+            evaluacionServicio = "Exelente Servicio";
+        }else if (promedioGeneral){
+            evaluacionServicio = "Servicio Aceptable"
+        }else {
+            evaluacionServicio = "Se requiere mejorar el servicio";
+        }
+
+        System.out.println("\n===== REPORTE GENERAL DE SATISFACCION =====");
+        System.out.println("Cantidad de clientes encuestados: " + totalClientes);
+        System.out.println("Suma total de las calificacines: " + sumaCalificaciones);
+        System.out.println("Promedio general: " + promedioGeneral);
+        System.out.println("Clientes satisfechos: " + clientesSatisfechos);
+        System.out.println("Clientes insatisfechos: " + clientesInsatisfechos);
+        System.out.println("Calificacion mas alta otorgada: " + calificacionMasAlta);
+        System.out.println("Evaluacion general del servicio: " + evaluacionServicio);
+    }
+
+}
