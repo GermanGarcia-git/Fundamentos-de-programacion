@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="657976c9-e290-4e2f-b65d-40e4461db9b3" name="Changes" comment="Practica">
-      <change afterPath="$PROJECT_DIR$/src/Tema3/ExamenTema3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema4/ArreglosEjemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema4/CapturarMatriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema4/ControlVentas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema4/SistemaCalificaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema4/TablasDeMultplicar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3/ClientesCafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema3/ClientesCafeteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema3/TernarioEjemplo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,61 +35,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000006778416" />
-      <entry key="S30" value="1.0016201343491593" />
-      <entry key="S60" value="1.073612972740287" />
-      <entry key="M2" value="1.6077907926191224" />
-      <entry key="M5" value="5.04462614820793" />
-      <entry key="M10" value="21.661413691169802" />
-      <entry key="M15" value="46.90266584987819" />
-      <entry key="M30" value="121.41570544808259" />
-      <entry key="H1" value="234.5598747238007" />
-      <entry key="H2" value="387.0180236759875" />
-      <entry key="H4" value="549.890584717845" />
-      <entry key="D1" value="797.6506665029827" />
-      <entry key="W1" value="869.0976231918185" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.848067529063729E-84" />
+      <entry key="S2" value="1.5553100506045084E-21" />
+      <entry key="S5" value="4.9147994195203584E-9" />
+      <entry key="S10" value="8.699924868931633E-5" />
+      <entry key="S30" value="0.11155219089984798" />
+      <entry key="S60" value="1.1975892794292071" />
+      <entry key="M2" value="6.4713477655334515" />
+      <entry key="M5" value="27.43377831699381" />
+      <entry key="M10" value="58.79522649565565" />
+      <entry key="M15" value="86.25542948487534" />
+      <entry key="M30" value="154.7894533358459" />
+      <entry key="H1" value="269.3173070340635" />
+      <entry key="H2" value="464.6900608811289" />
+      <entry key="H4" value="729.1593926305935" />
+      <entry key="D1" value="1239.9408438301034" />
+      <entry key="W1" value="1393.5679620036126" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.5991398867199987E-128" />
-      <entry key="S5" value="7.6139585341799E-52" />
-      <entry key="S10" value="2.7904855400851075E-26" />
-      <entry key="S30" value="3.7495962766038275E-9" />
-      <entry key="S60" value="8.833471848231594E-5" />
-      <entry key="M2" value="0.016206322157070817" />
-      <entry key="M5" value="0.5126130380820683" />
-      <entry key="M10" value="2.0490523934120803" />
-      <entry key="M15" value="3.9841124384481117" />
-      <entry key="M30" value="14.551358672175052" />
-      <entry key="H1" value="47.82708453518008" />
-      <entry key="H2" value="108.79598180281549" />
-      <entry key="H4" value="178.41403838065995" />
-      <entry key="D1" value="284.2606355708437" />
-      <entry key="W1" value="314.20843413603586" />
+      <entry key="MS100" value="1.000000000000147" />
+      <entry key="MS500" value="1.0027128029995411" />
+      <entry key="S2" value="1.2282204536132797" />
+      <entry key="S5" value="1.5537862368225466" />
+      <entry key="S10" value="1.7450954945402097" />
+      <entry key="S30" value="2.1122298783937827" />
+      <entry key="S60" value="3.063011632011774" />
+      <entry key="M2" value="5.537174529896557" />
+      <entry key="M5" value="12.592701318417157" />
+      <entry key="M10" value="22.38422558416905" />
+      <entry key="M15" value="30.868685073049516" />
+      <entry key="M30" value="51.58266116243153" />
+      <entry key="H1" value="84.04921340821677" />
+      <entry key="H2" value="141.68212839247477" />
+      <entry key="H4" value="229.41196168152806" />
+      <entry key="D1" value="414.1497618067456" />
+      <entry key="W1" value="471.86241935798597" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.373362408067393E-4" />
-      <entry key="MS500" value="0.1688717605669547" />
-      <entry key="S2" value="0.6410460932315439" />
-      <entry key="S5" value="0.8370582923511133" />
-      <entry key="S10" value="0.9149088990316372" />
-      <entry key="S30" value="0.9723847090922805" />
-      <entry key="S60" value="1.0583799114439298" />
-      <entry key="M2" value="1.6133389681363346" />
-      <entry key="M5" value="5.542285183115389" />
-      <entry key="M10" value="23.689616753940278" />
-      <entry key="M15" value="50.86180633820878" />
-      <entry key="M30" value="135.92909663995889" />
-      <entry key="H1" value="282.33260404153344" />
-      <entry key="H2" value="495.7552034112002" />
-      <entry key="H4" value="728.2570311098971" />
-      <entry key="D1" value="1081.8986987214191" />
-      <entry key="W1" value="1183.3040478046528" />
+      <entry key="MS100" value="5.168123244400332E-5" />
+      <entry key="MS500" value="0.13915910679181465" />
+      <entry key="S2" value="0.7387205245017098" />
+      <entry key="S5" value="1.2606192752297292" />
+      <entry key="S10" value="1.5700321169097786" />
+      <entry key="S30" value="2.1404386253753214" />
+      <entry key="S60" value="4.16026558074145" />
+      <entry key="M2" value="11.864549481259829" />
+      <entry key="M5" value="39.85642963203822" />
+      <entry key="M10" value="81.01655282647258" />
+      <entry key="M15" value="116.97167474780133" />
+      <entry key="M30" value="206.24265167633635" />
+      <entry key="H1" value="353.2605021535761" />
+      <entry key="H2" value="606.2849683592283" />
+      <entry key="H4" value="958.5031263747466" />
+      <entry key="D1" value="1654.0708016337612" />
+      <entry key="W1" value="1865.427160249695" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -99,45 +101,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Areas.executor": "Run",
-    "Application.CajeroAuto.executor": "Run",
-    "Application.CentroMedico.executor": "Run",
-    "Application.Comision.executor": "Run",
-    "Application.CompetenciaResistencia.executor": "Run",
-    "Application.EXAMEN.executor": "Run",
-    "Application.Estacionamiento.executor": "Run",
-    "Application.EstadisticasSecuencia.executor": "Run",
-    "Application.ExamenTema3.executor": "Run",
-    "Application.Gasolinera.executor": "Run",
-    "Application.MenuOperacionesMatematicas.executor": "Run",
-    "Application.Numeros.executor": "Run",
-    "Application.NumerosAmigos.executor": "Run",
-    "Application.SCalificaciones.executor": "Run",
-    "Application.SimuladorAhorro.executor": "Run",
-    "Application.TernarioEjemplo.executor": "Run",
-    "Application.Tienda.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Areas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CajeroAuto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CapturarMatriz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CentroMedico.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompetenciaResistencia.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EXAMEN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Estacionamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstadisticasSecuencia.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExamenTema3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gasolinera.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuOperacionesMatematicas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumerosAmigos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SCalificaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimuladorAhorro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernarioEjemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tienda.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EXAMEN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema2.EXAMEN" />
